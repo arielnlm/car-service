@@ -28,8 +28,7 @@ class Application : Application() {
 
     private fun initKoin() {
         val modules = listOf(
-            coreModule,
-            signInModule,
+            coreModule, signInModule,
             car_module
         )
         startKoin {
